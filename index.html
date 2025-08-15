@@ -23,7 +23,7 @@
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
-          <a href="./index.html" class="header-logo"
+          <a href="./index.html" class="logo header-logo"
             >Web<span class="header-logo-white">Studio</span></a>
           <ul class="header-nav-list">
             <li>
@@ -45,6 +45,71 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="header-mobile-btn" data-menu-open>
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+        <div class="mobile-menu" data-menu>
+          <div class="container mobile-menu-container">
+<button type="button" class="mobile-menu-close" data-menu-close>
+  <svg class="close-icon" width="8" height="8">
+    <use href="./images/icons.svg#icon-close"></use>
+  </svg>
+</button>
+ <nav class="mobile-menu-nav">
+          <ul class="menu-nav-list">
+            <li class="menu-nav-item">
+              <a href="./index.html" class="menu-nav-link current">Studio</a>
+            </li>
+            <li class="menu-nav-item"><a href="" class="menu-nav-link">Portfolio</a></li>
+            <li class="menu-nav-item"><a href="" class="menu-nav-link">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="menu-address">
+          <ul class="menu-address-list">
+            <li class="menu-address-item">
+              <a class="menu-address-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a>
+            </li>
+            <li class="menu-address-item">
+              <a class="menu-address-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+         <ul class="social-links menu-social">
+                  <li class="social-item">
+                    <a href="" target="_blank" class="social-link">
+                      <svg class="social-icon" width="24" height="24">
+                        <use href="./images/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" target="_blank" class="social-link">
+                      <svg class="social-icon" width="24" height="24">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" target="_blank" class="social-link">
+                      <svg class="social-icon" width="24" height="24">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a href="" target="_blank" class="social-link">
+                      <svg class="social-icon" width="24" height="24">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -58,7 +123,7 @@
           </button>
         </div>
       </section>
-      <section class="advantages-section section">
+      <!-- <section class="advantages-section section">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="advantages-section-container">
@@ -564,7 +629,8 @@
           <button type="submit" class="modal-form-btn">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
